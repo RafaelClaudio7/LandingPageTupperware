@@ -1,0 +1,111 @@
+/* Figma Inspiration: https://www.figma.com/file/tQPQkOt54T1AjXUFxmgDYC/Water-Bottle-Web-design-(Community)?node-id=0%3A1*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Sarabun:wght@200;300;400;500;600&family=Satisfy&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+}
+
+header nav {
+    position: relative;
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 500px;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 80px;
+    padding: 20px;
+    margin-right: 150px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    border-bottom: solid 1px#000;
+    color: #DED5C6;
+}
+
+.active {
+    border-bottom: solid 1px #000;
+}
+
+.btn-contact {
+    position: absolute;
+    right: 200px;
+    top: 20px;
+    border-style: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 25px;
+    height: 40px;
+    width: 140px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+.logo {
+    font-family: 'Satisfy', cursive;
+    line-height: 80px;
+    float: left;
+    font-size: 20px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+aside {
+    float: left;
+    width: 50%;
+    height: 800px;
+    padding-top: 120px;
+    padding-left: 260px;
+}
+
+h3 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h3 span.needed {
+    font-size: 100px;
+    color: #DED5C6;
+}
+
+p {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.btn-buy {
+    margin-top: 50px;
+    margin-left: 90px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    height: 60px;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+img {
+    margin-top: 70px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
